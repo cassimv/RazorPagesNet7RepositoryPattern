@@ -15,6 +15,7 @@ namespace NetCoreRepositoryPatternTemplate.Pages
         {
             _logger = logger;
             _studentLogic = studentLogic;
+            _studentView = new List<StudentView>();
 
         }
 
